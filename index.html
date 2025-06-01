@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dynamic Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+HU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+HU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+    
+</head>
+<body>
+    <main id="main-content">
+    <header id="header">
+        <img id="profile-photo" src="./Media/profile photo2.jpeg" alt="Adediran Wealth's profile photo">
+        <h1>Hello, I'm Adediran Wealth!</h1>
+        <p>Driven by a passion for web development and<br> designing engaging digital interactions.</p>
+    </header>
+    <div class="about">
+            <h2>About Me</h2>
+            <p>I enjoy learning new technologies and bringing ideas to life through code. My focus is on building user-friendly and responsive web applications.</p>
+    </div>
+    <div id="multimedia-showcase">
+            <h2 class="multi-show">Multimedia Showcase</h2>
+            <h3 class="audio">My Audio Greeting:</h3>
+            <audio controls>
+                <source src="./Media/Portfolio Audio.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+
+            <h3 class="video">A Quick Project Video:</h3>
+            <video controls width="350" height="">
+                <source src="./Media/Portfolio video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+<div id="interactive-skills">
+    <h2>My Skills</h2>
+    <div class="skill-buttons">
+        <button class="skill-btn" data-skill="HTML">HTML</button>
+        <button class="skill-btn" data-skill="CSS">CSS</button>
+        <button class="skill-btn" data-skill="JavaScript">JavaScript</button>
+    </div>
+    <p id="skill-description">Click a skill to learn more!</p>
+</div>
+<section id="portfolio-list">
+    <h2>My Projects</h2>
+    <div id="projects-container">
+        <!-- Project cards go here -->
+    </div>
+</section>
+</main>
+<footer id="footer">
+    <p>&copy; <span id="current-year"></span> Adediran Wealth. All rights reserved.</p>
+    <button id="themeToggle">Toggle Dark Mode</button>
+</footer>
+    </body>
+    <script src="./Js/Script.js"></script>
+</html>
